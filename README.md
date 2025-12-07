@@ -1,63 +1,36 @@
-# Fit Access: Sistema de Gestión de Socios para Gimnasios
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Fit Access es un prototipo de aplicación web pensado para gimnasios que necesitan llevar un control más ordenado de sus socios y sus membresías. El objetivo principal es demostrar el diseño de la solución, la arquitectura propuesta y un primer prototipo navegable (v0).
+## Getting Started
 
-## Descripción general:
+First, run the development server:
 
-El sistema permite:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Ver una página de inicio con la presentación de Fit Access.
-- Consultar un listado de socios del gimnasio.
-- Ver el detalle individual de cada socio, incluyendo sus datos básicos y el estado de su membresía.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Aunque en esta versión los datos son estáticos, la interfaz está diseñada para conectarse a un backend y una base de datos SQL definidos en el documento técnico y en el archivo `schema.sql`.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Prototipo en línea:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Prototipo v0 desplegado:
+## Learn More
 
->  
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Tecnologías utilizadas:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- **Framework:** Next.js (React) con TypeScript
-- **Estilos:** Tailwind CSS
-- **Iconos:** Lucide React
-- **Generación inicial de interfaz:** v0
+## Deploy on Vercel
 
-El backend y la base de datos se encuentran definidos a nivel de diseño, pero no se implementan completamente en esta versión.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Estructura de pantallas del prototipo:
-
-- **Inicio (`/`)**
-  - Presentación e información de Fit Access.
-  - Botón para ir al módulo de socios.
-  - Sección con características principales y estadísticas de ejemplo.
-
-- **Socios (`/socios`)**
-  - Tabla con nombre, teléfono y estado de membresía.
-  - Distintivos visuales para estados (Activo / Inactivo / Suspendido).
-  - Enlace para ver el detalle de cada socio.
-
-- **Detalle de socio (`/socios/[id]`)**
-  - Avatar con iniciales del socio.
-  - Datos básicos (nombre, teléfono).
-  - Estado de la membresía.
-  - Tarjetas informativas pensadas para futuras funcionalidades (próximos pasos, notas, etc.).
-
-## Estructura del repositorio:
-
-```text
-app/
-  page.tsx              # Página de inicio
-  socios/
-    page.tsx            # Listado de socios
-    [id]/
-      page.tsx          # Detalle de socio
-public/
-  gym-image.jpg          # Imagen del gimnasio usada en Home
-schema.sql              # Definición de la base de datos (SQL)
-
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
