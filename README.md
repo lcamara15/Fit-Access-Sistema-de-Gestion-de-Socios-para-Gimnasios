@@ -60,3 +60,4 @@ public/
   gym-hero.jpg          # Imagen del gimnasio usada en Home
 schema.sql              # Definición de la base de datos (SQL)
 README.md               # Documentación del proyecto
+Evaluación Final - Programación Web.pdf      #Documento técnico
