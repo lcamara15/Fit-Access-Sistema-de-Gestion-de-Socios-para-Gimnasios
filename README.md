@@ -26,6 +26,9 @@ Prototipo v0 desplegado:
 - **Iconos:** Lucide React.
 - **Generación inicial de interfaz:** v0.
 
+  <img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/63cb3638-7a94-4b3d-ba44-942dce5769bb" />
+
+
 El backend y la base de datos se encuentran definidos a nivel de diseño, pero no se implementan completamente en esta versión.
 
 ## Estructura de pantallas del prototipo:
@@ -35,17 +38,26 @@ El backend y la base de datos se encuentran definidos a nivel de diseño, pero n
   - Imagen ilustrativa.
   - Botón para ir al módulo de socios.
   - Sección con características principales y estadísticas de ejemplo.
+ 
+    <img width="1366" height="717" alt="image" src="https://github.com/user-attachments/assets/bc42dd49-6388-4d1e-8f70-66bfafe0f513" />
+
 
 - **Socios (`/socios`):**
   - Tabla con nombre, teléfono y estado de membresía.
   - Distintivos visuales para estados (Activo / Inactivo / Suspendido).
   - Enlace para ver el detalle de cada socio.
 
+    <img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/5a16779a-42e6-4448-b076-08cc096787a6" />
+
+
 - **Detalle de socio (`/socios/[id]`):**
   - Avatar con iniciales del socio.
   - Datos básicos (nombre, teléfono).
   - Estado de la membresía.
   - Tarjetas informativas pensadas para futuras funcionalidades (próximos pasos, notas, etc.).
+
+    <img width="1366" height="716" alt="image" src="https://github.com/user-attachments/assets/ae6653ce-47c8-4043-af1a-2e9c71107e8c" />
+
 
 ## Estructura del repositorio:
 
